@@ -47,12 +47,6 @@ export default function DebugView() {
         <Button variant="soft" onClick={() => navigate("/user")}>
           Debug User
         </Button>
-        <Button variant="soft" onClick={() => navigate("/dao")}>
-          DAO Tools
-        </Button>
-        <ButtonWithDialog label="Gamba Authority Config">
-          <ConfigDialog />
-        </ButtonWithDialog>
         {wSolAccount && (
           <Button variant="soft" onClick={unwrap}>
             Unwrap WSOL
