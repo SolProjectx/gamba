@@ -67,7 +67,7 @@ export function App() {
           <Flex gap="2" align="center" justify="between">
             <Flex gap="4" align="center">
               <Logo to="/">
-                <img alt="Logo" src="/logo.svg" />
+                <img alt="Logo" src="/logo.png" />
               </Logo>
             </Flex>
             <Flex gap="2" align="center" style={{ position: "relative" }}>
