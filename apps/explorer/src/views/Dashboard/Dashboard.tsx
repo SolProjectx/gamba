@@ -76,6 +76,7 @@ export default function Dashboard() {
         <Flex direction="column" gap="4">
           <TotalVolume />
         </Flex>
+        <TopPlayers />
       </Grid>
     </Flex>
   )
