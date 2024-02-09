@@ -78,6 +78,8 @@ export default function Dashboard() {
         </Flex>
         <TopPlayers />
       </Grid>
-    </Flex>
+      <Text color="gray">Recent Plays</Text>
+        <RecentPlays creator="6SaxsBTCRRK1xFT2c7iPSirx2aSZLsuY28S28shmLm11" />
+      </Flex>
   )
 }
