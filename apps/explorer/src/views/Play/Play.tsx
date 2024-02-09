@@ -295,11 +295,7 @@ function TransactionDetails({ parsed }: {parsed: GambaTransaction<"GameSettled">
               <Text weight="bold">
                 Platform
               </Text>
-              <Link asChild>
-                <NavLink to={"/platform/" + game.creator.toBase58()}>
                   <PlatformAccountItem address={game.creator} />
-                </NavLink>
-              </Link>
             </Grid>
           </Table.Cell>
         </Table.Row>
