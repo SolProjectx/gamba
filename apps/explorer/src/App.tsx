@@ -76,8 +76,8 @@ export function App() {
               </Button> */}
               {wallet.connected && (
                 <>
-                  <Button size="3" variant="soft" onClick={() => navigate("/portfolio")}>
-                    Portfolio <StackIcon />
+                  <Button size="3" variant="soft" onClick={() => navigate("/debug")}>
+                    Tools <MagicWandIcon />
                   </Button>
                 </>
               )}
