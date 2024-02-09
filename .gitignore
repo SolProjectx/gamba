@@ -5,3 +5,4 @@ dev-dist/
 .vscode
 trash.*
 .turbo
+.env
