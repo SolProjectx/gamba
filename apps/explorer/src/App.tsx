@@ -76,17 +76,11 @@ export function App() {
               </Button> */}
               {wallet.connected && (
                 <>
-                  <Button size="3" variant="soft" onClick={() => navigate("/debug")}>
-                    Tools <MagicWandIcon />
-                  </Button>
                   <Button size="3" variant="soft" onClick={() => navigate("/portfolio")}>
                     Portfolio <StackIcon />
                   </Button>
                 </>
               )}
-              <Button size="3" variant="soft" color="green" onClick={() => navigate("/create")}>
-                Create Pool <PlusIcon />
-              </Button>
               {!wallet.connected ? (
                 <Button disabled={wallet.connecting} onClick={() => walletModal.setVisible(true)} size="3" variant="soft">
                   Connect <EnterIcon />
