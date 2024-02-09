@@ -75,14 +75,8 @@ export default function Dashboard() {
       <Grid gap="4" columns={{initial: '1', sm: '2'}}>
         <Flex direction="column" gap="4">
           <TotalVolume />
-          <TopPlayers />
         </Flex>
-        <TopPlatforms />
       </Grid>
-      <Text color="gray">Top Pools</Text>
-      <PoolList />
-      <Text color="gray">Recent Plays</Text>
-      <RecentPlays />
     </Flex>
   )
 }
