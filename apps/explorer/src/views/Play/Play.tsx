@@ -260,24 +260,6 @@ function TransactionDetails({ parsed }: {parsed: GambaTransaction<"GameSettled">
           <Table.Cell>
             <Grid columns="2" gap="4">
               <Text weight="bold">
-                Pool
-              </Text>
-              <Link asChild>
-                <NavLink to={"/pool/" + game.pool.toBase58()}>
-                  <Flex gap="2">
-                    <TokenAvatar size="1" mint={game.tokenMint} />
-                    {game.pool.toBase58()}
-                  </Flex>
-                </NavLink>
-              </Link>
-            </Grid>
-          </Table.Cell>
-        </Table.Row>
-
-        <Table.Row>
-          <Table.Cell>
-            <Grid columns="2" gap="4">
-              <Text weight="bold">
                 Player
               </Text>
               <Link asChild>
