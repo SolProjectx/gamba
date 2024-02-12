@@ -41,7 +41,7 @@ export default function DebugView() {
   return (
     <Card style={{ maxWidth: "720px", margin: "0 auto" }} size="4">
       <Heading mb="4">
-        Debug stuff
+        Claim Stuck Money
       </Heading>
       <Flex gap="2" direction="column">
         <Button variant="soft" onClick={() => navigate("/user")}>
