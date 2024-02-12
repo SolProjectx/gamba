@@ -41,11 +41,11 @@ export default function DebugView() {
   return (
     <Card style={{ maxWidth: "720px", margin: "0 auto" }} size="4">
       <Heading mb="4">
-        Claim Stuck Money
+        Account Function
       </Heading>
       <Flex gap="2" direction="column">
         <Button variant="soft" onClick={() => navigate("/user")}>
-          Debug User
+          Claim Stuck Money
         </Button>
         {wSolAccount && (
           <Button variant="soft" onClick={unwrap}>
